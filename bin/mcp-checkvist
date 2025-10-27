@@ -1,0 +1,9 @@
+#!/usr/bin/env perl
+use Mojo::Base -strict;
+
+use FindBin;
+use lib "$FindBin::Bin/../lib";
+
+use Mojolicious::Commands;
+
+Mojolicious::Commands->start_app('App::CheckvistMCP');

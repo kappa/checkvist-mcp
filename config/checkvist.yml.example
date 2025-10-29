@@ -1,0 +1,10 @@
+# Example configuration for the Checkvist MCP server.
+# Environment variables override these values at runtime.
+base_uri: https://checkvist.com
+mcp_admin_token: change-me
+auth:
+  token: ""
+  username: ""
+  remote_key: ""
+  password: ""
+  token2fa: ""
